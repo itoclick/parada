@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    background-color: rgba(165, 42, 42, 0.096);
+}
+
+.carousel-slide {
+    
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    
+}
+
+.item {
+    flex: none;
+    background-color: hsla(39, 87%, 58%, 0.137);
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
+    color: rgb(209, 175, 131);
+    border-radius: 15px;
+}
+
+.btnDireita {
+    background-color: blue;
+    background-image: '../../src/imgs/chevron.png';
+    border-radius: 10px;
+   
+}
